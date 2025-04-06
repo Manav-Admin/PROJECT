@@ -1,2 +1,4 @@
-print("hello world") 
-input("hello:", word)
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
+sum = first + second
+print("Sum of the two numbers is:", sum)
