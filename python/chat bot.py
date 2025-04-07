@@ -1,0 +1,11 @@
+print("Welcome o chat bot V1")
+
+print("Hay my self manav , i would love to know yur fav color")
+color = str(input(""))
+print(" " + color + "!!same and my fav color is also " + color)
+print("How is the weather there?")
+whether = str(input(""))
+print(" " + whether + "!!hoo thats odd bcz if ur there the weather would be romantic ")
+print("my i know ur fav 2 digit number")
+number = int(input(""))
+print(" " + str(number) + "!!i thought its 69 bcz you look very hot the numbers doesnt matter ")
