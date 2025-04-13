@@ -109,3 +109,11 @@ while(i>0):
 #with
 with open('example.txt','w')as my_file:
     my_file.write('hello worl')
+
+#yield
+def gen():
+    for i in range(6):
+        yield i*i
+g=gen()
+for i in gen():
+    print(i)
