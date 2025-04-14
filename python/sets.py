@@ -66,3 +66,8 @@ mysets10={10,20,30,40}
 mysets11={30,40,50,60}
 print(mysets10 - mysets11)  # this will give the difference of both sets
 print(mysets10.difference(mysets11)) # this will give the difference of both sets
+
+#frozen set
+mysets12=frozenset({10,20,30,40})
+print(mysets12)
+#mysets12.add(50) # this will give error because frozen set is immutable
