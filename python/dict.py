@@ -35,3 +35,22 @@ del person["city"]
 # Loop through dictionary
 for key, value in person.items():
     print(key, ":", value)
+
+def first_non_repeating_char(s):
+    char_count = {}
+
+    # Count characters
+    for char in s:
+        char_count[char] = char_count.get(char, 0) + 1
+
+    # Find the first non-repeating character
+    for char in s:
+        if char_count[char] == 1:
+            return char
+
+    return None
+
+# Example usage
+string = "aabbcddex"
+result = first_non_repeating_char(string)
+print("First non-repeating character:", result)
